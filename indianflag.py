@@ -61,7 +61,7 @@ flag.pendown()
 flag.circle(45)
 flag.end_fill()
 # Creating the lines
-for in range(24):
+for i in range(24):
 	flag.penup()
 	flag.goto(29, 16)
 	flag.left(15)
